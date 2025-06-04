@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import Image from "next/image";
 const Hero = () => {
   return (
-    <div className="text-white grid grid-cols-1 lg:grid-cols-12 ">
+    <div className="text-white grid grid-cols-1 lg:grid-cols-12 mt-32">
       <div className=" col-span-7 sm:text-left mt-2  ">
         <h1 className="lg:text-6xl mb-2 text-transparent bg-clip-text bg-gradient-to-r  from-blue-200 to-orange-300  font-extrabold text-4xl sm:text-5xl">
           Hello,Iam
@@ -28,12 +28,12 @@ const Hero = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde
           eius veniam a nemo, aliquid odio.
         </p>
-        <div className="flex flex-col sm:flex-row">
-          <button className="px-6 bg-gradient-to-br from-blue-200 to-orange-300 py-3 mb-3 sm:w-f rounded-full mr-4 bg-white cursor-pointer hover:bg-slate-800 text-black">
+        <div className="flex    flex-row">
+          <button className="px-10 py-3  w-auto mr-4 bg-gradient-to-br  from-blue-200  to-orange-300   mb-2 rounded-full  bg-white cursor-pointer hover:bg-slate-800 text-black">
             hire me
           </button>
           <a href="web.pdf">
-            <button className="px-6 py-3 mb-3 rounded-full mr-4 bg-gradient-to-br from-blue-200 to-orange-300 bg-black     hover:bg-slate-800 cursor-pointer border-white border text-black ">
+            <button className="px-6 py-3  mb-3 rounded-full    bg-gradient-to-br from-blue-200 to-orange-300 bg-black     hover:bg-slate-800 cursor-pointer border-white border text-black ">
               download cv
             </button>
           </a>
